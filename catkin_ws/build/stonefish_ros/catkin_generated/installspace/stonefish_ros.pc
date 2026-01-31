@@ -1,0 +1,8 @@
+prefix=/home/taylan/catkin_ws/install
+
+Name: stonefish_ros
+Description: Description of stonefish_ros
+Version: 1.6.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lstonefish_ros
+Requires: geometry_msgs nav_msgs sensor_msgs std_msgs std_srvs roscpp roslib tf tf_conversions message_runtime pcl_conversions pcl_ros image_transport controller_manager

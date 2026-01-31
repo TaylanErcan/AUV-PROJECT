@@ -1,0 +1,8 @@
+prefix=/home/taylan/catkin_ws/devel
+
+Name: girona_pilot
+Description: Description of girona_pilot
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
